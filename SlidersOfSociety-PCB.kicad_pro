@@ -630,8 +630,8 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER_PART_NUMBER",
-          "name": "MANUFACTURER_PART_NUMBER",
+          "label": "MPN",
+          "name": "MPN",
           "show": true
         },
         {
@@ -652,7 +652,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {

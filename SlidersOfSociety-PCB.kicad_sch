@@ -3784,10 +3784,6 @@
 		(uuid "547c8667-44ab-4f98-afed-4bc918214396")
 	)
 	(no_connect
-		(at 105.41 130.81)
-		(uuid "60123d2b-1455-4430-9b64-d2f8e58645d4")
-	)
-	(no_connect
 		(at 135.89 115.57)
 		(uuid "6b920b1e-591d-40ad-9c71-f434488a6b67")
 	)
@@ -4029,6 +4025,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 144.78) (xy 92.71 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28610df5-02aa-4540-89e4-b46b2d2bdf3d")
+	)
+	(wire
+		(pts
 			(xy 210.82 83.82) (xy 214.63 83.82)
 		)
 		(stroke
@@ -4109,16 +4115,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 165.1 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b1ccf2-01c2-4957-8c68-537542304f90")
-	)
-	(wire
-		(pts
 			(xy 177.8 91.44) (xy 177.8 92.71)
 		)
 		(stroke
@@ -4136,6 +4132,16 @@
 			(type default)
 		)
 		(uuid "4ca0c144-2c59-432d-8f88-3f1d07aef72f")
+	)
+	(wire
+		(pts
+			(xy 92.71 130.81) (xy 105.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512b8e97-266b-4b97-b3c7-786931a61c22")
 	)
 	(wire
 		(pts
@@ -4289,6 +4295,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 134.62) (xy 92.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72aa52e5-e376-4036-b951-4f7b5315ab1c")
+	)
+	(wire
+		(pts
 			(xy 105.41 118.11) (xy 78.74 118.11)
 		)
 		(stroke
@@ -4356,16 +4372,6 @@
 			(type default)
 		)
 		(uuid "7c4e6b16-dcb5-4bc1-aa8f-b6b429a95ca8")
-	)
-	(wire
-		(pts
-			(xy 135.89 118.11) (xy 149.86 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef370c6-067a-429a-b1d8-e5b58640a6eb")
 	)
 	(wire
 		(pts
@@ -4736,16 +4742,6 @@
 			(type default)
 		)
 		(uuid "ba87bacc-6a25-41f9-9cf3-ab25af30f989")
-	)
-	(wire
-		(pts
-			(xy 165.1 118.11) (xy 160.02 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf11718b-feb1-4362-a276-1e88dc57ab71")
 	)
 	(wire
 		(pts
@@ -5237,7 +5233,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -5263,32 +5259,34 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Open")
-		(at 154.94 118.11 0)
+		(at 92.71 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09c8a061-1083-47cc-8cb3-2495bc98ac20")
 		(property "Reference" "SW2"
-			(at 154.94 111.76 0)
+			(at 95.25 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "limit switch"
-			(at 154.94 114.3 0)
+			(at 95.25 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 154.94 113.03 0)
+			(at 97.79 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 113.03 0)
+			(at 97.79 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,20 +5304,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 118.11 0)
+			(at 92.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 154.94 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5656,7 +5645,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CL21B105KBFNNNE"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 90.17 104.14 0)
 			(effects
 				(font
@@ -5800,7 +5789,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "DRV8871DDAR"
+		(property "MPN" "DRV8871DDAR"
 			(at 175.26 140.97 0)
 			(effects
 				(font
@@ -6098,7 +6087,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW080510K0FKEA"
+		(property "MPN" "CRCW080510K0FKEA"
 			(at 142.24 137.16 90)
 			(effects
 				(font
@@ -6241,15 +6230,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 63.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "6"
 			(uuid "3fd24ade-be20-4385-889f-b8810bc7f588")
 		)
@@ -6338,7 +6318,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "MCP2561T-E/SN"
+		(property "MPN" "MCP2561T-E/SN"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -6501,7 +6481,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0805KRX7R9BB104"
+		(property "MPN" "CC0805KRX7R9BB104"
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -6655,7 +6635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" ""
+		(property "MPN" "151031VS06000"
 			(at 142.24 148.59 90)
 			(effects
 				(font
@@ -6687,7 +6667,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "587e4af4-3d2e-4b76-84d2-1d6fbe3f512e")
 		(property "Reference" "J1"
 			(at 96.52 36.8299 0)
@@ -6869,7 +6849,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW080510K0FKEA"
+		(property "MPN" "CRCW080510K0FKEA"
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -7014,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "MTJ-642BX2"
+		(property "MPN" "MTJ-642BX2"
 			(at 224.79 86.36 0)
 			(effects
 				(font
@@ -7098,7 +7078,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "RC0805FR-0756KL"
+		(property "MPN" "RC0805FR-0756KL"
 			(at 187.96 151.13 0)
 			(effects
 				(font
@@ -7190,7 +7170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 120.65 0)
+		(at 92.71 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7199,7 +7179,7 @@
 		(fields_autoplaced yes)
 		(uuid "a04a4898-f59c-4c61-9479-4e0ad9249c6a")
 		(property "Reference" "#PWR011"
-			(at 165.1 127 0)
+			(at 92.71 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +7188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 125.73 0)
+			(at 92.71 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 120.65 0)
+			(at 92.71 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 120.65 0)
+			(at 92.71 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 120.65 0)
+			(at 92.71 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7288,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "PIC18F25K83-I/SO"
+		(property "MPN" "PIC18F25K83-I/SO"
 			(at 120.65 115.57 0)
 			(effects
 				(font
@@ -7660,7 +7640,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "RC0805FR-07100RL"
+		(property "MPN" "RC0805FR-07100RL"
 			(at 97.79 97.79 90)
 			(effects
 				(font
@@ -7805,7 +7785,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "MTJ-642BX2"
+		(property "MPN" "MTJ-642BX2"
 			(at 224.79 58.42 0)
 			(effects
 				(font
@@ -7946,15 +7926,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 213.36 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
 			(at 213.36 133.35 0)
 			(effects
 				(font
@@ -8311,7 +8282,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CC0805KRX7R9BB104"
+		(property "MPN" "CC0805KRX7R9BB104"
 			(at 180.34 121.92 0)
 			(effects
 				(font
@@ -8587,7 +8558,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW080510K0FKEA"
+		(property "MPN" "CRCW080510K0FKEA"
 			(at 90.17 88.9 0)
 			(effects
 				(font
@@ -8666,7 +8637,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "UHE2A470MPD"
+		(property "MPN" "UHE2A470MPD"
 			(at 193.04 121.92 0)
 			(effects
 				(font
@@ -8874,7 +8845,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "219-4MST"
+		(property "MPN" "219-4MST"
 			(at 66.04 132.08 0)
 			(effects
 				(font
